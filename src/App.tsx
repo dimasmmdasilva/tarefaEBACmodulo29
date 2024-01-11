@@ -9,10 +9,10 @@ function App() {
       <EstiloGlobal />
       <Container>
         <Sidebar />
-        <div>
+        <main>
           <Sobre />
           <Projetos />
-        </div>
+        </main>
       </Container>
     </>
   )
