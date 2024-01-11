@@ -3,10 +3,12 @@ import { P } from '../../components/Paragrafo/styles'
 export const Descricao = styled(P)`
   margin-top: 24px;
   margin-bottom: 40px;
+  color: ${(props) => props.theme.corPrincipal};
 `
 export const BotaoTema = styled.button`
   border-radius: 12px;
   padding: 8px;
+  margin-bottom: 40px;
   color: ${(props) => props.theme.corFundo};
   font-size: 10px;
   font-weight: bold;

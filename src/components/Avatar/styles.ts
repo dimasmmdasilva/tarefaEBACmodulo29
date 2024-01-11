@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 export const FotoPerfil = styled.img`
-  max-width: 100%;
+  width: 20%;
+  margin-bottom: 40px;
   border-radius: 50%;
-  margim-bottom: 24px;
 `

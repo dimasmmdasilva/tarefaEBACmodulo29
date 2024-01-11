@@ -6,7 +6,7 @@ const Sobre = () => {
   return (
     <section>
       <Titulo fontSize={16}>Sobre mim</Titulo>
-      <Paragrafo tipo="secundario">
+      <Paragrafo>
         Sou natural da cidade de Pindamonhangaba no interior de São Paulo
         (1988), foi aonde tive minha primeira experiência com um computador na
         casa do meu tio João (1994). Atuei como Profissional em Educação Física
