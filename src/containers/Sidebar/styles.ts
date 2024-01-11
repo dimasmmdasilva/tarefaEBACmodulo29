@@ -6,7 +6,7 @@ export const Descricao = styled(P)`
   color: ${(props) => props.theme.corPrincipal};
 `
 export const BotaoTema = styled.button`
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 8px;
   margin-bottom: 40px;
   color: ${(props) => props.theme.corFundo};
@@ -19,4 +19,7 @@ export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `
