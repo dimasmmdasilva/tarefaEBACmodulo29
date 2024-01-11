@@ -1,10 +1,12 @@
 import styled, { createGlobalStyle } from 'styled-components'
+import { Theme } from './Themes/dark'
 const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
     list-style: none;
+    background-color: ${(props) => (props.theme as Theme).corFundo}
   }
   body {
     padding-top: 80px;

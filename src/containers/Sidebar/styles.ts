@@ -7,10 +7,10 @@ export const Descricao = styled(P)`
 export const BotaoTema = styled.button`
   border-radius: 12px;
   padding: 8px;
-  color: #c1c1c1;
+  color: ${(props) => props.theme.corFundo};
   font-size: 10px;
   font-weight: bold;
-  background-color: #000000;
+  background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
 `
 export const SidebarContainer = styled.div`

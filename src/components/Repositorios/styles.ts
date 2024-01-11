@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 export const Card = styled.div`
-  border: 1px solid #c1c1c1;
+  border: 1px solid ${(props) => props.theme.corBorda};
   padding: 16px;
 `
 export const Link = styled.a`
-  color: #c1c1c1;
+  color: ${(props) => props.theme.corFundo};
   font-size: 14px;
-  background-color: #000000;
+  background-color: ${(props) => props.theme.corBotao};
   text-decoration: none;
   padding: 8px;
   display: inline-block;
